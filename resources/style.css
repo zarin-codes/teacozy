@@ -11,22 +11,25 @@
 /* Header */
 header {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   height: 69px;
+  width: 100%;
   position: fixed;
   border-bottom: 1px solid seashell;
 
 }
-
 header
-.logo {
+img {
   height: 50px;
   padding-left: 10px;
-  flex-grow: 1;
 }
 
 header
-nav {
+nav
+span {
+  text-align: center;
   text-decoration: underline;
+  padding-right: 20px;
 
 }

@@ -8,6 +8,11 @@ html{
   opacity: 0.9;
 }
 
+h2 {
+  padding: 0;
+  margin-bottom: 0;
+}
+
 a {
   color: seashell;
 }
@@ -104,9 +109,33 @@ h4 {
 
 /* Locations */
 
-.locations {
+#locations {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
   text-align: center;
+}
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+
+}
+
+.column1, .column2, .column3 {
+  background-color: black;
+  text-align: center;
+  width: 300px;
+  margin: 20px;
+  opacity: 1;
+  flex-basis: 300px
+}
+
+h3, p {
+  padding-bottom: 10px;
 }

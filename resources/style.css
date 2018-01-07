@@ -124,7 +124,6 @@ h4 {
   display: flex;
   justify-content: center;
   padding-top: 15px;
-
 }
 
 .column1, .column2, .column3 {
@@ -138,4 +137,17 @@ h4 {
 
 h3, p {
   padding-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+  height: 200px;
+  width: 100%;
+}
+
+.copyright {
+  width: 100%;
+  text-align: left;
+  margin-left: 20px;
 }
